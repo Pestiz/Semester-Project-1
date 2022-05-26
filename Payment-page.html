@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/generals.css">
+    <link rel="stylesheet" href="../CSS/payment-page.css">
+    <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+    <title>Payment</title>
+</head>
+<body>
+    <header >  
+        <div>
+        <img src="../images/AQUAPOLIS txt.png" alt="AUAPOLIS" class="header-logo" />
+        </div>
+        <input type="checkbox" id="menu-checkbox"/>
+        <label for="menu-checkbox"><i class="fa fa-bars"></i></i></label>
+        <nav class="header-navigation">
+        <ul class="main-navigation">
+            <li><a href="../HTML/index.html">Home</a></li>
+            <li><a href="../HTML/About-us.html">About</a></li>
+            <li><a href="../HTML/Atractions.html">Our Atractions</a></li>
+            <li><a href="../HTML/price-detail.html">Price details</a></li>
+            <li>Our Hisotry</li>
+            <li><a href="../HTML/About-us.html">Get Involved</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container__card">
+                <div class="container__card--front">
+                    <div class="container__img">
+                        <img src="../images/klarna.png" alt="Klarna_img">
+                    </div>
+                    <div class="container__card--card_number">1234 5678 9101 1121</div>
+                    <div class="container__card--flexbox">
+                        <div class="container__card--box">
+                            <span>card holder</span>
+                            <div class="container__card--card-holder-name">full name</div>
+                        </div>
+                        <div class="container__card--box">
+                            <span>expires</span>
+                            <div class="container__card--expiration">
+                                <span class="container__card--exp-month">mm</span>
+                                <span class="container__card--exp-year">yy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="">
+                <div class="container__inputbox">
+                    <span>Card number</span>
+                    <input type="text" maxlength="16" class="container__card-number-input">
+                </div>
+                <div class="container__inputbox">
+                    <span>Card holder name</span>
+                    <input type="text" class="container__card-holder-input">
+                </div>
+                <div class="flexbox">
+                    <div class="container__inputbox">
+                        <span>expiration mm</span>
+                        <select class="container__inputbox--month">
+                            <option value="mont" select disabled>Month</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="container__inputbox">
+                        <span>expiration yy</span>
+                        <select class="container__inputbox--year">
+                            <option value="year" select disabled>Year</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                        </select>
+                    </div>
+                    <div class="container__inputbox">
+                        <span>ccv</span>
+                        <input type="text" maxlength="3" class="container__inputbox--ccv">
+                </div>
+            </div>
+            <a href="../HTML/index.html"><input type="submit" value="submit" class="submit--btn"></a>
+                </form>
+            </div>
+    </main>
+</body>
+<footer>
+    <section class="najneleven">
+        <div class="info">
+            <h3>Office of Aquapolis:</h3>
+            <p>Hydro@polis.no</p>
+            <p>Tel. 123 54 678</p>
+        </div>
+        <div class="aquapolis-logo">
+            <img class="polis" src="../images/Aquapolis.png">
+        </div>
+        <div class="info-line">
+            <h3>Helpline available from:</h3>
+            <p>man-fri 9:30-16:30</p>
+            <p>Sat-Sun 10:30-18:30</p>
+        </div>
+    </section>
+</footer>
+</html>
