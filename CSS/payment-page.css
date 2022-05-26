@@ -1,0 +1,113 @@
+*{
+    outline: none;
+    text-transform: uppercase;
+}
+
+.container{
+    min-height: 95vh;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding-bottom: 6rem;
+}
+.container form{
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 1);
+    padding: 2rem;
+    padding-top: 16rem;
+    width: 60rem;
+}
+.container__inputbox{
+    margin-top: 2rem;
+}
+.container__inputbox span{
+    display: block;
+    color: #999;
+    padding-bottom: 0.5rem;
+}
+.container__inputbox input,
+.container__inputbox select{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #444;
+}
+.flexbox{
+    display: flex;
+    gap: 1.5rem;
+}
+.flexbox .container__inputbox{
+    flex: 1 1 15rem;
+}
+.submit--btn{
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s linear;
+    break-before: 0.5rem;
+}
+.submit--btn:hover{
+    letter-spacing: 0.2rem;
+    opacity: .8;
+}
+.container .container__card{
+    margin-bottom: -15rem;
+    position: relative;
+    height: 25rem;
+    width: 40rem;
+}
+.container__card--front{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    border-radius: 0.5rem;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    padding: 2rem;
+}
+.container__img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+}
+.container__img img{ 
+    height: 5rem;
+}
+.container__card--card_number{
+    padding: 3rem 0;
+    font-size: 2.2rem;
+    color: #fff;
+}
+.container__card--flexbox{
+    display: flex;
+}
+.container__card--box{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.container__card--box:nth-child(1){
+    margin-right: auto;
+}
+
+@media (max-width: 1024px){
+    .container form{
+        width: 23rem;
+    }
+    .container .container__card{
+        width: 26rem;
+        height: 24rem;
+    }
+}

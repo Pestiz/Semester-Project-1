@@ -1,0 +1,81 @@
+.what-we-are{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 40%;
+    height: auto;
+    margin-top: 1rem;
+}
+.aquapolis-logo-txt{
+    width: 100%;
+    height: auto;
+}
+.description-about{
+    width: 35%;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.info-box{
+    text-align: center;
+}
+.info-box > h1, h2{
+    font-size: 2.5rem;
+}
+.info-box > p{
+    font-size: 1.6rem;
+}
+.getinvolved{
+    color: black;
+    position: relative;
+    margin : 0 auto;
+    width: 25rem;
+    height: 3rem;
+    background-color: #6CD9CE;
+    border-radius: 3px;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.getinvolved > h3{
+    font-size: 2.4rem;
+}
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 3rem;
+    width: 80%;
+}
+.a,.b,.c{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.a1,.b1,.c1{
+    font-size: 1.15rem;
+}
+@media (max-width: 1000px){
+    .description-about{
+        width: 55%;
+        margin-top: 0.5rem;
+    }
+    .a,.b,.c{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .a1,.b1,.c1{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 650px){
+    .info-box > h1, h2{
+    font-size: 1.25rem;
+}
+    .info-box > p{
+    font-size: 0.9rem;
+}
+}
